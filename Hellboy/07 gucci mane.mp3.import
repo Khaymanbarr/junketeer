@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://b7qa3axkjyy3q"
+path="res://.godot/imported/07 gucci mane.mp3-332a7688c8babc1dc29d7fd9d844e9bd.mp3str"
+
+[deps]
+
+source_file="res://Hellboy/07 gucci mane.mp3"
+dest_files=["res://.godot/imported/07 gucci mane.mp3-332a7688c8babc1dc29d7fd9d844e9bd.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

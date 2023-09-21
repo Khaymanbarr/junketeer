@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://cr8fydm2lfvjj"
+path="res://.godot/imported/14 the last thing i wanna do.mp3-421a77b4a77cbb64caf70c23c6b0bff8.mp3str"
+
+[deps]
+
+source_file="res://Hellboy/14 the last thing i wanna do.mp3"
+dest_files=["res://.godot/imported/14 the last thing i wanna do.mp3-421a77b4a77cbb64caf70c23c6b0bff8.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

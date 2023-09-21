@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://h8sfm2xc2uvl"
+path="res://.godot/imported/04 the song they played [when i crashed Into the wall] (feat. lil tracy).mp3-6e537c381550f2905c89ee66e79515bb.mp3str"
+
+[deps]
+
+source_file="res://Hellboy/04 the song they played [when i crashed Into the wall] (feat. lil tracy).mp3"
+dest_files=["res://.godot/imported/04 the song they played [when i crashed Into the wall] (feat. lil tracy).mp3-6e537c381550f2905c89ee66e79515bb.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

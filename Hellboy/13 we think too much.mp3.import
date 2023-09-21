@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://3fvidxdcyq3d"
+path="res://.godot/imported/13 we think too much.mp3-95cb425c6b42ffab3516a55bf82c35c8.mp3str"
+
+[deps]
+
+source_file="res://Hellboy/13 we think too much.mp3"
+dest_files=["res://.godot/imported/13 we think too much.mp3-95cb425c6b42ffab3516a55bf82c35c8.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4
