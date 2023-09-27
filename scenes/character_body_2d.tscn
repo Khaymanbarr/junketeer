@@ -1,0 +1,54 @@
+[gd_scene load_steps=10 format=3 uid="uid://dmd5imiamtyyp"]
+
+[ext_resource type="Texture2D" uid="uid://qlumw5brtdv4" path="res://Player-Robot/Runner Bobot/Run-Frame-1.png" id="1_44yp5"]
+[ext_resource type="Texture2D" uid="uid://dot1kutuo62w8" path="res://Player-Robot/Runner Bobot/Run-Frame-2.png" id="2_m0cb1"]
+[ext_resource type="Texture2D" uid="uid://wqtkdop3mj07" path="res://Player-Robot/Runner Bobot/Run-Frame-3.png" id="3_y58cv"]
+[ext_resource type="Texture2D" uid="uid://dw0likulqd248" path="res://Player-Robot/Runner Bobot/Run-Frame-4.png" id="4_pxiu5"]
+[ext_resource type="Texture2D" uid="uid://dnwtbfw6yo7o4" path="res://Player-Robot/Runner Bobot/Run-Frame-5.png" id="5_1irug"]
+[ext_resource type="Texture2D" uid="uid://cm8xl2e20p5oe" path="res://Player-Robot/Runner Bobot/Run-Frame-6.png" id="6_18ulv"]
+[ext_resource type="Texture2D" uid="uid://bqkt5n0esylwl" path="res://Player-Robot/Runner Bobot/Run-Frame-7.png" id="7_rtvgj"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_xhs7i"]
+radius = 20.0
+height = 70.0
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_wf6b6"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_44yp5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_m0cb1")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_y58cv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_pxiu5")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_1irug")
+}, {
+"duration": 1.0,
+"texture": ExtResource("6_18ulv")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_rtvgj")
+}],
+"loop": true,
+"name": &"run",
+"speed": 10.0
+}]
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("CapsuleShape2D_xhs7i")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(-1, 3.57628e-07)
+scale = Vector2(0.183984, 0.178516)
+sprite_frames = SubResource("SpriteFrames_wf6b6")
+animation = &"run"
+frame_progress = 0.187785

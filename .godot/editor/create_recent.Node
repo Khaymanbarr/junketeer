@@ -1,6 +1,8 @@
-Node2D
-CharacterBody2D
-AnimationPlayer
+Camera2D
+AnimatedSprite2D
 CollisionShape2D
+CharacterBody2D
+Node2D
+AnimationPlayer
 RigidBody2D
 TileMap

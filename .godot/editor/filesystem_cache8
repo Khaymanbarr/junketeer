@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1695841729
+::res://::1695846582
 icon.svg::CompressedTexture2D::4349880190461584756::1694645098::1694645115::1::::<><>::
 README.md::TextFile::-1::1695253177::0::1::::<><>::
 ::res://Construct 3/::1694646755
@@ -23,50 +23,50 @@ Readme.txt::TextFile::-1::1694646755::0::1::::<><>::
 16 move on, be strong.mp3::AudioStreamMP3::6681816562942094784::1546410102::1695254393::1::::<><>::
 AlbumArtSmall.jpg::CompressedTexture2D::2616767260038103812::1546409474::1695254394::1::::<><>::
 Folder.jpg::CompressedTexture2D::2779710010027637016::1546409476::1695254394::1::::<><>::
-::res://Main Robot/::1695795161
-Robo.tscn::PackedScene::5850988769063162279::1695795161::0::1::::<><>::uid://kchwbhvf5wgo::::res://Assests/Sprites/Player-Robot/Idle Robot/Idle-Frame-1.png<>res://Scripts/Robo.gd<>uid://cl5f2jd3itlo1::::res://Assests/Sprites/Player-Robot/Slam/Slam-Frame-1.png<>uid://cfrxqn5ayu5ry::::res://Assests/Sprites/Player-Robot/Idle Robot/Idle-Frame-2.png<>uid://cyv4vy24dgwnw::::res://Assests/Sprites/Player-Robot/Slam/Slam-Frame-2.png<>uid://dwxjfn33an813::::res://Assests/Sprites/Player-Robot/Idle Robot/Idle-Frame-3.png<>uid://dnensiboelqkd::::res://Assests/Sprites/Player-Robot/Idle Robot/Idle-Frame-4.png<>uid://c2apnu7ssubgv::::res://Assests/Sprites/Player-Robot/Slam/Slam-Frame-3.png<>uid://5r3iwyr4qjlx::::res://Assests/Sprites/Player-Robot/Idle Robot/Idle-Frame-5.png<>uid://rwgfqdxclinf::::res://Assests/Sprites/Player-Robot/Idle Robot/Idle-Frame-6.png<>uid://dan045hlhnbc7::::res://Assests/Sprites/Player-Robot/Idle Robot/Idle-Frame-7.png<>uid://cu4oluf5nphjq::::res://Assests/Sprites/Player-Robot/Jump Robot/Jump-Frame-2.png<>uid://djh0uc7ls2d51::::res://Assests/Sprites/Player-Robot/Jump Robot/Jump-Frame-3.png<>uid://d3eku3jcuabl2::::res://Assests/Sprites/Player-Robot/Jump Robot/Jump-Frame-4.png<>uid://cw6t1h5ymj6g::::res://Assests/Sprites/Player-Robot/Jump Robot/Jump-Frame-5.png<>uid://qlumw5brtdv4::::res://Assests/Sprites/Player-Robot/Runner Bobot/Run-Frame-1.png<>uid://dot1kutuo62w8::::res://Assests/Sprites/Player-Robot/Runner Bobot/Run-Frame-2.png<>uid://wqtkdop3mj07::::res://Assests/Sprites/Player-Robot/Runner Bobot/Run-Frame-3.png<>uid://dw0likulqd248::::res://Assests/Sprites/Player-Robot/Runner Bobot/Run-Frame-4.png<>uid://dnwtbfw6yo7o4::::res://Assests/Sprites/Player-Robot/Runner Bobot/Run-Frame-5.png<>uid://cm8xl2e20p5oe::::res://Assests/Sprites/Player-Robot/Runner Bobot/Run-Frame-6.png<>uid://bqkt5n0esylwl::::res://Assests/Sprites/Player-Robot/Runner Bobot/Run-Frame-7.png
-::res://Player-Robot/::1695795099
-::res://Player-Robot/Idle Robot/::1695795153
-Idle-Frame-1.png::CompressedTexture2D::706481562602727762::1695795099::1695795153::1::::<><>::
-Idle-Frame-2.png::CompressedTexture2D::5160305800112065010::1695795099::1695795153::1::::<><>::
-Idle-Frame-3.png::CompressedTexture2D::8751453408694630524::1695795099::1695795153::1::::<><>::
-Idle-Frame-4.png::CompressedTexture2D::8080796416959713455::1695795099::1695795153::1::::<><>::
-Idle-Frame-5.png::CompressedTexture2D::2142475286509492641::1695795099::1695795153::1::::<><>::
-Idle-Frame-6.png::CompressedTexture2D::1239000729418133879::1695795099::1695795153::1::::<><>::
-Idle-Frame-7.png::CompressedTexture2D::7187670261748275296::1695795099::1695795153::1::::<><>::
-::res://Player-Robot/Jump Robot/::1695795153
-Jump-Frame-1.png::CompressedTexture2D::2365846325007109346::1695795099::1695795153::1::::<><>::
-Jump-Frame-2.png::CompressedTexture2D::6237355936218325670::1695795099::1695795153::1::::<><>::
-Jump-Frame-3.png::CompressedTexture2D::7806966083802623610::1695795099::1695795153::1::::<><>::
-Jump-Frame-4.png::CompressedTexture2D::9133451554440854485::1695795099::1695795153::1::::<><>::
-Jump-Frame-5.png::CompressedTexture2D::187711532541685800::1695795099::1695795153::1::::<><>::
-Jump-Frame-6.png::CompressedTexture2D::9085316599849661133::1695795099::1695795153::1::::<><>::
-::res://Player-Robot/Runner Bobot/::1695795153
-Run-Frame-1.png::CompressedTexture2D::1146966624812103483::1695795099::1695795153::1::::<><>::
-Run-Frame-2.png::CompressedTexture2D::8182726619836823697::1695795099::1695795153::1::::<><>::
-Run-Frame-3.png::CompressedTexture2D::1578356264820024598::1695795099::1695795152::1::::<><>::
-Run-Frame-4.png::CompressedTexture2D::8755708784890091231::1695795099::1695795152::1::::<><>::
-Run-Frame-5.png::CompressedTexture2D::8118289035663112777::1695795099::1695795152::1::::<><>::
-Run-Frame-6.png::CompressedTexture2D::5684649517063606976::1695795099::1695795152::1::::<><>::
-Run-Frame-7.png::CompressedTexture2D::3531293877752341443::1695795099::1695795152::1::::<><>::
-::res://Player-Robot/Slam/::1695795152
-Slam-Frame-1.png::CompressedTexture2D::5607202260053823226::1695795099::1695795152::1::::<><>::
-Slam-Frame-2.png::CompressedTexture2D::6502525145588485608::1695795099::1695795152::1::::<><>::
-Slam-Frame-3.png::CompressedTexture2D::6668875216568760421::1695795099::1695795152::1::::<><>::
-::res://run/::1695792371
-player-run-1.png::CompressedTexture2D::846219767650609222::1695792158::1695792158::1::::<><>::
-player-run-2.png::CompressedTexture2D::7515650711330758435::1695792158::1695792158::1::::<><>::
-player-run-3.png::CompressedTexture2D::8327835743115579062::1695792158::1695792158::1::::<><>::
-player-run-4.png::CompressedTexture2D::736743421895158362::1695792158::1695792158::1::::<><>::
-player-run-5.png::CompressedTexture2D::3687838688057974232::1695792158::1695792158::1::::<><>::
-player-run-6.png::CompressedTexture2D::2135914568458311500::1695792158::1695792158::1::::<><>::
-tileset.png::CompressedTexture2D::4453454724348521440::1695792366::1695792371::1::::<><>::
-::res://scenes/::1695795247
-node_2d.tscn::PackedScene::4306282696390668349::1695795247::0::1::::<><>::uid://b4pj0ppa2q545::::res://run/tileset.png<>uid://qbs4ba8ojtqs::::res://Tilemap/tilemap.png
+::res://Player-Robot/::1695841934
+::res://Player-Robot/Idle Robot/::1695841934
+Idle-Frame-1.png::CompressedTexture2D::706481562602727762::1695841934::1695841934::1::::<><>::
+Idle-Frame-2.png::CompressedTexture2D::5160305800112065010::1695841934::1695841934::1::::<><>::
+Idle-Frame-3.png::CompressedTexture2D::8751453408694630524::1695841934::1695841934::1::::<><>::
+Idle-Frame-4.png::CompressedTexture2D::8080796416959713455::1695841934::1695841934::1::::<><>::
+Idle-Frame-5.png::CompressedTexture2D::2142475286509492641::1695841934::1695841934::1::::<><>::
+Idle-Frame-6.png::CompressedTexture2D::1239000729418133879::1695841934::1695841934::1::::<><>::
+Idle-Frame-7.png::CompressedTexture2D::7187670261748275296::1695841934::1695841934::1::::<><>::
+::res://Player-Robot/Jump Robot/::1695841934
+Jump-Frame-1.png::CompressedTexture2D::2365846325007109346::1695841934::1695841934::1::::<><>::
+Jump-Frame-2.png::CompressedTexture2D::6237355936218325670::1695841934::1695841934::1::::<><>::
+Jump-Frame-3.png::CompressedTexture2D::7806966083802623610::1695841934::1695841934::1::::<><>::
+Jump-Frame-4.png::CompressedTexture2D::9133451554440854485::1695841934::1695841934::1::::<><>::
+Jump-Frame-5.png::CompressedTexture2D::187711532541685800::1695841934::1695841934::1::::<><>::
+Jump-Frame-6.png::CompressedTexture2D::9085316599849661133::1695841934::1695841934::1::::<><>::
+::res://Player-Robot/Runner Bobot/::1695841934
+Run-Frame-1.png::CompressedTexture2D::1146966624812103483::1695841934::1695841934::1::::<><>::
+Run-Frame-2.png::CompressedTexture2D::8182726619836823697::1695841934::1695841934::1::::<><>::
+Run-Frame-3.png::CompressedTexture2D::1578356264820024598::1695841934::1695841934::1::::<><>::
+Run-Frame-4.png::CompressedTexture2D::8755708784890091231::1695841934::1695841934::1::::<><>::
+Run-Frame-5.png::CompressedTexture2D::8118289035663112777::1695841934::1695841934::1::::<><>::
+Run-Frame-6.png::CompressedTexture2D::5684649517063606976::1695841934::1695841934::1::::<><>::
+Run-Frame-7.png::CompressedTexture2D::3531293877752341443::1695841934::1695841934::1::::<><>::
+::res://Player-Robot/Slam/::1695841934
+Slam-Frame-1.png::CompressedTexture2D::5607202260053823226::1695841934::1695841934::1::::<><>::
+Slam-Frame-2.png::CompressedTexture2D::6502525145588485608::1695841934::1695841934::1::::<><>::
+Slam-Frame-3.png::CompressedTexture2D::6668875216568760421::1695841934::1695841934::1::::<><>::
+::res://run/::1695841935
+player-run-1.png::CompressedTexture2D::846219767650609222::1695841934::1695841934::1::::<><>::
+player-run-2.png::CompressedTexture2D::7515650711330758435::1695841934::1695841934::1::::<><>::
+player-run-3.png::CompressedTexture2D::8327835743115579062::1695841934::1695841934::1::::<><>::
+player-run-4.png::CompressedTexture2D::736743421895158362::1695841934::1695841934::1::::<><>::
+player-run-5.png::CompressedTexture2D::3687838688057974232::1695841934::1695841934::1::::<><>::
+player-run-6.png::CompressedTexture2D::2135914568458311500::1695841934::1695841934::1::::<><>::
+tileset.png::CompressedTexture2D::4453454724348521440::1695841935::1695841935::1::::<><>::
+::res://scenes/::1695846351
+character_body_2d.tscn::PackedScene::8009557746787552631::1695846351::0::1::::<><>::uid://qlumw5brtdv4::::res://Player-Robot/Runner Bobot/Run-Frame-1.png<>uid://dot1kutuo62w8::::res://Player-Robot/Runner Bobot/Run-Frame-2.png<>uid://wqtkdop3mj07::::res://Player-Robot/Runner Bobot/Run-Frame-3.png<>uid://dw0likulqd248::::res://Player-Robot/Runner Bobot/Run-Frame-4.png<>uid://dnwtbfw6yo7o4::::res://Player-Robot/Runner Bobot/Run-Frame-5.png<>uid://cm8xl2e20p5oe::::res://Player-Robot/Runner Bobot/Run-Frame-6.png<>uid://bqkt5n0esylwl::::res://Player-Robot/Runner Bobot/Run-Frame-7.png
+node_2d.tscn::PackedScene::4306282696390668349::1695844612::0::1::::<><>::uid://b4pj0ppa2q545::::res://run/tileset.png<>uid://qbs4ba8ojtqs::::res://Tilemap/tilemap.png<>uid://bwsdynu7c8y36::::res://Tiles/tileset.png
 ::res://Tilemap/::1694646757
 tilemap.png::CompressedTexture2D::1126230623897420358::1694646755::1694646757::1::::<><>::
 tilemap_packed.png::CompressedTexture2D::9043473804564950220::1694646755::1694646757::1::::<><>::
-::res://Tiles/::1695253147
+::res://Tiles/::1695844613
+tileset.png::CompressedTexture2D::3967959768492478559::1695843345::1695844613::1::::<><>::
 tile_0000.png::CompressedTexture2D::2067757486162531059::1694646754::1694646757::1::::<><>::
 tile_0001.png::CompressedTexture2D::4726620719452985983::1694646755::1694646757::1::::<><>::
 tile_0002.png::CompressedTexture2D::3592210939673047766::1694646755::1694646757::1::::<><>::
