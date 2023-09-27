@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://qlumw5brtdv4"
-path="res://.godot/imported/Run-Frame-1.png-7e6f461e498094a6373bf9a3d25b535f.ctex"
+path="res://.godot/imported/Run-Frame-1.png-6627005da31f206fcfad86121de20411.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Player-Robot/Runner Bobot/Run-Frame-1.png"
-dest_files=["res://.godot/imported/Run-Frame-1.png-7e6f461e498094a6373bf9a3d25b535f.ctex"]
+source_file="res://Player-Robot/Run-Frame-1.png"
+dest_files=["res://.godot/imported/Run-Frame-1.png-6627005da31f206fcfad86121de20411.ctex"]
 
 [params]
 

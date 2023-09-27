@@ -1,6 +1,6 @@
 [gd_scene load_steps=10 format=3 uid="uid://dmd5imiamtyyp"]
 
-[ext_resource type="Texture2D" uid="uid://qlumw5brtdv4" path="res://Player-Robot/Runner Bobot/Run-Frame-1.png" id="1_44yp5"]
+[ext_resource type="Texture2D" uid="uid://qlumw5brtdv4" path="res://Player-Robot/Run-Frame-1.png" id="1_35t6a"]
 [ext_resource type="Texture2D" uid="uid://dot1kutuo62w8" path="res://Player-Robot/Runner Bobot/Run-Frame-2.png" id="2_m0cb1"]
 [ext_resource type="Texture2D" uid="uid://wqtkdop3mj07" path="res://Player-Robot/Runner Bobot/Run-Frame-3.png" id="3_y58cv"]
 [ext_resource type="Texture2D" uid="uid://dw0likulqd248" path="res://Player-Robot/Runner Bobot/Run-Frame-4.png" id="4_pxiu5"]
@@ -16,7 +16,7 @@ height = 34.0
 animations = [{
 "frames": [{
 "duration": 1.0,
-"texture": ExtResource("1_44yp5")
+"texture": ExtResource("1_35t6a")
 }, {
 "duration": 1.0,
 "texture": ExtResource("2_m0cb1")
