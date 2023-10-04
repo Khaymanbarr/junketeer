@@ -9,8 +9,8 @@
 [ext_resource type="Texture2D" uid="uid://bqkt5n0esylwl" path="res://Player-Robot/Runner Bobot/Run-Frame-7.png" id="7_rtvgj"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_xhs7i"]
-radius = 11.0
-height = 34.0
+radius = 9.0
+height = 24.0
 
 [sub_resource type="SpriteFrames" id="SpriteFrames_wf6b6"]
 animations = [{
