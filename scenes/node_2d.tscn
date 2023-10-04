@@ -1,9 +1,9 @@
 [gd_scene load_steps=7 format=3 uid="uid://b2l83170gqx0p"]
 
+[ext_resource type="Script" path="res://scripts/character_body_2d.gd" id="3_b7a4y"]
 [ext_resource type="Texture2D" uid="uid://b150vi3y6sccp" path="res://Tilemap/tileset.png" id="3_pws46"]
+[ext_resource type="Texture2D" uid="uid://f4oyrkws8m01" path="res://backgrounds/section_1_background_420_x_170.png" id="4_lx8mu"]
 [ext_resource type="PackedScene" uid="uid://dmd5imiamtyyp" path="res://scenes/character_body_2d.tscn" id="4_mtjly"]
-[ext_resource type="Script" path="res://scenes/character_body_2d.gd" id="5_1o7qq"]
-[ext_resource type="Texture2D" uid="uid://f4oyrkws8m01" path="res://section_1_background_420_x_170.png" id="6_g7lf5"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_akewd"]
 texture = ExtResource("3_pws46")
@@ -487,7 +487,7 @@ layer_0/tile_data = PackedInt32Array(65534, 1114114, 20, 65535, 65538, 7, 0, 196
 
 [node name="CharacterBody2D" parent="." instance=ExtResource("4_mtjly")]
 position = Vector2(-131, -18)
-script = ExtResource("5_1o7qq")
+script = ExtResource("3_b7a4y")
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
 position = Vector2(68, -37)
@@ -497,4 +497,4 @@ zoom = Vector2(2, 2)
 show_behind_parent = true
 position = Vector2(129, -105.75)
 scale = Vector2(1.39524, 1.33824)
-texture = ExtResource("6_g7lf5")
+texture = ExtResource("4_lx8mu")

@@ -1,29 +1,11 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1696454898
+::res://::1696455383
 icon.svg::CompressedTexture2D::4349880190461584756::1694645098::1694645115::1::::<><>::
 README.md::TextFile::-1::1695253177::0::1::::<><>::
-section_1_background_420_x_170.png::CompressedTexture2D::411704979380285188::1695857546::1695857546::1::::<><>::
+::res://backgrounds/::1696455383
+section_1_background_420_x_170.png::CompressedTexture2D::411704979380285188::1695857546::1696455384::1::::<><>::
 ::res://Construct 3/::1694646755
 Readme.txt::TextFile::-1::1694646755::0::1::::<><>::
-::res://Hellboy/::1695254394
-01 hellboy.mp3::AudioStreamMP3::7700008012136125903::1546410030::1695254394::1::::<><>::
-02 drive by (feat. xavier wulf).mp3::AudioStreamMP3::4010410002477686021::1546410036::1695254394::1::::<><>::
-03 OMFG.mp3::AudioStreamMP3::8257421971454281767::1546410040::1695254394::1::::<><>::
-04 the song they played [when i crashed Into the wall] (feat. lil tracy).mp3::AudioStreamMP3::560548879228213565::1546410046::1695254394::1::::<><>::
-05 fucked up.mp3::AudioStreamMP3::8644526414653349368::1546410050::1695254394::1::::<><>::
-06 cobain (feat. lil tracy).mp3::AudioStreamMP3::6248179478896188681::1546410054::1695254394::1::::<><>::
-07 gucci mane.mp3::AudioStreamMP3::4665543762402285688::1546410058::1695254394::1::::<><>::
-08 interlude.mp3::AudioStreamMP3::1337171931346141303::1546410064::1695254394::1::::<><>::
-09 worlds away.mp3::AudioStreamMP3::1729763504364377087::1546410068::1695254394::1::::<><>::
-10 red drop shawty (feat. kirblagoop).mp3::AudioStreamMP3::8025253221677081965::1546410072::1695254394::1::::<><>::
-11 girls (feat. horsehead).mp3::AudioStreamMP3::3819190383998818146::1546410078::1695254394::1::::<><>::
-12 nose ring.mp3::AudioStreamMP3::4843205151593873220::1546410084::1695254393::1::::<><>::
-13 we think too much.mp3::AudioStreamMP3::1976899047075034235::1546410088::1695254393::1::::<><>::
-14 the last thing i wanna do.mp3::AudioStreamMP3::6034522796483655751::1546410094::1695254393::1::::<><>::
-15 walk away as the door slams (feat. lil tracy).mp3::AudioStreamMP3::6720983281304019066::1546410098::1695254393::1::::<><>::
-16 move on, be strong.mp3::AudioStreamMP3::6681816562942094784::1546410102::1695254393::1::::<><>::
-AlbumArtSmall.jpg::CompressedTexture2D::2616767260038103812::1546409474::1695254394::1::::<><>::
-Folder.jpg::CompressedTexture2D::2779710010027637016::1546409476::1695254394::1::::<><>::
 ::res://Player-Robot/::1695857546
 Run-Frame-1.png::CompressedTexture2D::1146966624812103483::1695857546::1695857546::1::::<><>::
 ::res://Player-Robot/Idle Robot/::1695841934
@@ -60,10 +42,11 @@ player-run-4.png::CompressedTexture2D::736743421895158362::1695841934::169584193
 player-run-5.png::CompressedTexture2D::3687838688057974232::1695841934::1695841934::1::::<><>::
 player-run-6.png::CompressedTexture2D::2135914568458311500::1695841934::1695841934::1::::<><>::
 tileset.png::CompressedTexture2D::4453454724348521440::1695841935::1695841935::1::::<><>::
-::res://scenes/::1696454412
-character_body_2d.gd::GDScript::-1::1695847231::0::1::::<>CharacterBody2D<>::
+::res://scenes/::1696455383
 character_body_2d.tscn::PackedScene::8009557746787552631::1695860374::0::1::::<><>::uid://qlumw5brtdv4
-node_2d.tscn::PackedScene::4306282696390668349::1696454412::0::1::::<><>::uid://qbs4ba8ojtqs::::res://Tilemap/tilemap.png<>uid://bwsdynu7c8y36::::res://Tiles/tileset.png<>uid://b150vi3y6sccp::::res://Tilemap/tileset.png<>uid://dmd5imiamtyyp::::res://scenes/character_body_2d.tscn<>res://scenes/character_body_2d.gd<>uid://f4oyrkws8m01::::res://section_1_background_420_x_170.png
+node_2d.tscn::PackedScene::4306282696390668349::1696455383::0::1::::<><>::res://scripts/character_body_2d.gd<>uid://b150vi3y6sccp::::res://Tilemap/tileset.png<>uid://f4oyrkws8m01::::res://backgrounds/section_1_background_420_x_170.png<>uid://dmd5imiamtyyp::::res://scenes/character_body_2d.tscn
+::res://scripts/::1696455355
+character_body_2d.gd::GDScript::-1::1695847231::0::1::::<>CharacterBody2D<>::
 ::res://Tilemap/::1696448939
 tilemap.png::CompressedTexture2D::1126230623897420358::1694646755::1694646757::1::::<><>::
 tilemap_packed.png::CompressedTexture2D::9043473804564950220::1694646755::1694646757::1::::<><>::

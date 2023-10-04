@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://bfurog6a60321"
-path="res://.godot/imported/Folder.jpg-94b79cd0d78fbac645175230b2c9dbae.ctex"
+uid="uid://f4oyrkws8m01"
+path="res://.godot/imported/section_1_background_420_x_170.png-2fd6a07c4b71e71b066169c731806e86.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Hellboy/Folder.jpg"
-dest_files=["res://.godot/imported/Folder.jpg-94b79cd0d78fbac645175230b2c9dbae.ctex"]
+source_file="res://backgrounds/section_1_background_420_x_170.png"
+dest_files=["res://.godot/imported/section_1_background_420_x_170.png-2fd6a07c4b71e71b066169c731806e86.ctex"]
 
 [params]
 
