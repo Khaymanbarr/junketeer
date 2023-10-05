@@ -903,6 +903,21 @@ size = Vector2(50.2491, 4.37968)
 
 [node name="world" type="Node2D"]
 
+[node name="Sprite2D" type="Sprite2D" parent="."]
+show_behind_parent = true
+position = Vector2(129, -105.75)
+scale = Vector2(1.39524, 1.33824)
+texture = ExtResource("4_lx8mu")
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("4_mtjly")]
+position = Vector2(-140, -18)
+script = ExtResource("3_b7a4y")
+
+[node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
+position = Vector2(66, -60)
+scale = Vector2(4.28, 1)
+zoom = Vector2(2, 2)
+
 [node name="TileMap" type="TileMap" parent="."]
 scale = Vector2(0.895539, 0.913306)
 tile_set = SubResource("TileSet_n6rx8")
@@ -915,19 +930,3 @@ layer_0/tile_data = PackedInt32Array(65534, 1114114, 20, 65535, 65538, 7, 0, 196
 position = Vector2(295.353, -145.625)
 shape = SubResource("RectangleShape2D_x61lj")
 one_way_collision = true
-
-[node name="CharacterBody2D" parent="." instance=ExtResource("4_mtjly")]
-position = Vector2(-140, -18)
-script = ExtResource("3_b7a4y")
-
-[node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
-position = Vector2(66, -60)
-scale = Vector2(4.28, 1)
-zoom = Vector2(2, 2)
-
-[node name="Sprite2D" type="Sprite2D" parent="."]
-visible = false
-show_behind_parent = true
-position = Vector2(129, -105.75)
-scale = Vector2(1.39524, 1.33824)
-texture = ExtResource("4_lx8mu")
