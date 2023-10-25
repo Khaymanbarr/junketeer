@@ -1,9 +1,12 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1696463078
+::res://::1697922627
 icon.svg::CompressedTexture2D::4349880190461584756::1694645098::1694645115::1::::<><>::
 README.md::TextFile::-1::1695253177::0::1::::<><>::
-::res://backgrounds/::1696455784
+::res://backgrounds/::1697923882
+guard_room_background.png::CompressedTexture2D::4341210692806236092::1697923866::1697923898::1::::<><>::
+guard_room_background_door_open.png::CompressedTexture2D::3195484029860427789::1697923882::1697923898::1::::<><>::
 section_1_background_420_x_170.png::CompressedTexture2D::411704979380285188::1696455784::1696455784::1::::<><>::
+section_1_background_640x240.png::CompressedTexture2D::4496045960961981545::1697923840::1697923898::1::::<><>::
 ::res://Construct 3/::1694646755
 Readme.txt::TextFile::-1::1694646755::0::1::::<><>::
 ::res://Player-Robot/::1695857546
@@ -34,6 +37,15 @@ Run-Frame-7.png::CompressedTexture2D::3531293877752341443::1695841934::169584193
 Slam-Frame-1.png::CompressedTexture2D::5607202260053823226::1695841934::1695841934::1::::<><>::
 Slam-Frame-2.png::CompressedTexture2D::6502525145588485608::1695841934::1695841934::1::::<><>::
 Slam-Frame-3.png::CompressedTexture2D::6668875216568760421::1695841934::1695841934::1::::<><>::
+::res://pngTiles/::1697923766
+conveyor_belt.png::CompressedTexture2D::3174573106748904611::1697923497::1697923746::1::::<><>::
+door.png::CompressedTexture2D::3513395984913852816::1696464656::1696464656::1::::<><>::
+elevator_platform.png::CompressedTexture2D::5925574575700300634::1696464656::1696464656::1::::<><>::
+Rusty_Fallaway_Catwalk_30_x_10_px.png::CompressedTexture2D::128656404200747527::1696464656::1696464656::1::::<><>::
+section_1_molten_metal_4_block.png::CompressedTexture2D::2903515316407992972::1697923695::1697923746::1::::<><>::
+section_1_molten_metal_6_block.png::CompressedTexture2D::5436772715763066540::1697923726::1697923746::1::::<><>::
+section_1_molten_metal_8_block.png::CompressedTexture2D::7384660759529291709::1697923741::1697923746::1::::<><>::
+section_3_molten_metal.png::CompressedTexture2D::4865275582193947403::1697923766::1697923898::1::::<><>::
 ::res://run/::1695841935
 player-run-1.png::CompressedTexture2D::846219767650609222::1695841934::1695841934::1::::<><>::
 player-run-2.png::CompressedTexture2D::7515650711330758435::1695841934::1695841934::1::::<><>::
@@ -42,12 +54,13 @@ player-run-4.png::CompressedTexture2D::736743421895158362::1695841934::169584193
 player-run-5.png::CompressedTexture2D::3687838688057974232::1695841934::1695841934::1::::<><>::
 player-run-6.png::CompressedTexture2D::2135914568458311500::1695841934::1695841934::1::::<><>::
 tileset.png::CompressedTexture2D::4453454724348521440::1695841935::1695841935::1::::<><>::
-::res://scenes/::1696462806
-character_body_2d.gd::GDScript::-1::1696462671::0::1::::<>CharacterBody2D<>::
-character_body_2d.tscn::PackedScene::8009557746787552631::1696462792::0::1::::<><>::uid://qlumw5brtdv4::::res://Player-Robot/Run-Frame-1.png<>uid://dot1kutuo62w8::::res://Player-Robot/Runner Bobot/Run-Frame-2.png<>uid://wqtkdop3mj07::::res://Player-Robot/Runner Bobot/Run-Frame-3.png<>uid://dw0likulqd248::::res://Player-Robot/Runner Bobot/Run-Frame-4.png<>uid://dnwtbfw6yo7o4::::res://Player-Robot/Runner Bobot/Run-Frame-5.png<>uid://cm8xl2e20p5oe::::res://Player-Robot/Runner Bobot/Run-Frame-6.png<>uid://bqkt5n0esylwl::::res://Player-Robot/Runner Bobot/Run-Frame-7.png
-level_2.tscn::PackedScene::5721093099906942134::1696462792::0::1::::<><>::uid://b150vi3y6sccp::::res://Tilemap/tileset.png
-level_3.tscn::PackedScene::654677162751539607::1696462806::0::1::::<><>::uid://b150vi3y6sccp::::res://Tilemap/tileset.png<>uid://dmd5imiamtyyp::::res://scenes/character_body_2d.tscn<>res://scenes/character_body_2d.gd
-node_2d.tscn::PackedScene::4306282696390668349::1696462791::0::1::::<><>::res://scripts/character_body_2d.gd<>uid://b150vi3y6sccp::::res://Tilemap/tileset.png<>uid://f4oyrkws8m01::::res://backgrounds/section_1_background_420_x_170.png<>uid://dmd5imiamtyyp::::res://scenes/character_body_2d.tscn
+::res://scenes/::1697922124
+character_body_2d.gd::GDScript::-1::1696463323::0::1::::<>CharacterBody2D<>::
+character_body_2d.tscn::PackedScene::8009557746787552631::1696465113::0::1::::<><>::uid://qlumw5brtdv4::::res://Player-Robot/Run-Frame-1.png<>uid://dot1kutuo62w8::::res://Player-Robot/Runner Bobot/Run-Frame-2.png<>uid://wqtkdop3mj07::::res://Player-Robot/Runner Bobot/Run-Frame-3.png<>uid://dw0likulqd248::::res://Player-Robot/Runner Bobot/Run-Frame-4.png<>uid://dnwtbfw6yo7o4::::res://Player-Robot/Runner Bobot/Run-Frame-5.png<>uid://cm8xl2e20p5oe::::res://Player-Robot/Runner Bobot/Run-Frame-6.png<>uid://bqkt5n0esylwl::::res://Player-Robot/Runner Bobot/Run-Frame-7.png
+gaurdRoom.tscn::PackedScene::2562026072155404527::1696465113::0::1::::<><>::
+level_2.tscn::PackedScene::5721093099906942134::1696465113::0::1::::<><>::uid://b150vi3y6sccp::::res://Tilemap/tileset.png
+level_3.tscn::PackedScene::654677162751539607::1696465113::0::1::::<><>::uid://b150vi3y6sccp::::res://Tilemap/tileset.png<>uid://dmd5imiamtyyp::::res://scenes/character_body_2d.tscn<>res://scenes/character_body_2d.gd
+node_2d.tscn::PackedScene::4306282696390668349::1697922124::0::1::::<><>::res://scripts/character_body_2d.gd<>uid://b150vi3y6sccp::::res://Tilemap/tileset.png<>uid://f4oyrkws8m01::::res://backgrounds/section_1_background_420_x_170.png<>uid://dmd5imiamtyyp::::res://scenes/character_body_2d.tscn<>uid://bqb6ebb2i5lka::::res://pngTiles/door.png<>uid://b3k7myq0nwyh::::res://pngTiles/Rusty_Fallaway_Catwalk_30_x_10_px.png
 ::res://scripts/::1696455784
 character_body_2d.gd::GDScript::-1::1696455784::0::1::::<>CharacterBody2D<>::
 ::res://Tilemap/::1696455784

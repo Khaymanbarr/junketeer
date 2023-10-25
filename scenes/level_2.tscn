@@ -1,6 +1,9 @@
-[gd_scene load_steps=4 format=3 uid="uid://cnrltka0y6ba1"]
+[gd_scene load_steps=7 format=3 uid="uid://cnrltka0y6ba1"]
 
 [ext_resource type="Texture2D" uid="uid://b150vi3y6sccp" path="res://Tilemap/tileset.png" id="1_o3cmo"]
+[ext_resource type="Texture2D" uid="uid://bqb6ebb2i5lka" path="res://pngTiles/door.png" id="2_5tuxi"]
+[ext_resource type="Texture2D" uid="uid://blh10xcvn8ct4" path="res://pngTiles/conveyor_belt.png" id="3_4gt05"]
+[ext_resource type="Texture2D" uid="uid://cqonl20drgbla" path="res://pngTiles/elevator_platform.png" id="4_gjj0y"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ld7jv"]
 texture = ExtResource("1_o3cmo")
@@ -479,3 +482,69 @@ sources/0 = SubResource("TileSetAtlasSource_ld7jv")
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_uk7fn")
 format = 2
+layer_0/tile_data = PackedInt32Array(393202, 196608, 13, 393203, 196608, 13, 393204, 196608, 13, 393208, 196608, 13, 393209, 196608, 13, 393210, 196608, 13, 393211, 196608, 13, 393212, 196608, 13, 393213, 196608, 13, 393205, 196608, 13, 393206, 196608, 13, 393207, 196608, 13, 393215, 196608, 13, 393214, 196608, 13, 327680, 196608, 13, 327681, 196608, 13, 327682, 196608, 13, 327683, 196608, 13, 327684, 196608, 13, 327685, 196608, 13, 327686, 196608, 13, 327687, 196608, 13, 327694, 196608, 13, 327693, 196608, 13, 327692, 196608, 13, 327691, 196608, 13, 327690, 196608, 13, 327689, 196608, 13, 327688, 196608, 13, 327695, 196608, 13, 327696, 196608, 13, 327697, 196608, 13, 327698, 196608, 13, 393201, 196608, 13, 393200, 196608, 13, 393199, 196608, 13, 393198, 196608, 13, -720914, 65536, 13, -720913, 65536, 13, -720912, 65536, 13, -720907, 65536, 13, -720908, 65536, 13, -720911, 65536, 13, -720910, 65536, 13, -720909, 65536, 13, -720906, 65536, 13, -720905, 65536, 13, -720904, 65536, 13, -720903, 65536, 13, -720902, 65536, 13, -720901, 65536, 13, -720900, 65536, 13, -720899, 65536, 13, -720898, 65536, 13, -720897, 65536, 13, -786432, 65536, 13, -786431, 65536, 13, -786430, 65536, 13, -786429, 65536, 13, -786428, 65536, 13, -786427, 65536, 13, -786426, 65536, 13, -786425, 65536, 13, -786424, 65536, 13, -786423, 65536, 13, -786422, 65536, 13, -786421, 65536, 13, -786420, 65536, 13, 327661, 327680, 13, 262125, 327680, 13, 196589, 327680, 13, 131053, 327680, 13, 65517, 327680, 13, -19, 327680, 13, -65555, 327680, 13, -131091, 327680, 13, -196627, 327680, 13, -262163, 327680, 13, -327699, 327680, 13, -393235, 327680, 13, -458771, 327680, 13, -524307, 327680, 13, -589843, 327680, 13, -655379, 327680, 13, -458733, 458752, 13, -393197, 458752, 13, -327661, 458752, 13, -262125, 458752, 13, -196589, 458752, 13, -131053, 458752, 13, -65517, 458752, 13, 19, 458752, 13, 65555, 458752, 13, 131091, 458752, 13, 196627, 458752, 13, 262163, 458752, 13, -720915, 851968, 7, 327699, 851968, 7, 393197, 851968, 7, -458767, 327680, 7, -458768, 196608, 7, -458769, 589824, 7, -458770, 851968, 7)
+
+[node name="Door" type="Sprite2D" parent="."]
+position = Vector2(-267, 56)
+texture = ExtResource("2_5tuxi")
+
+[node name="ConveyorBelt" type="Sprite2D" parent="."]
+position = Vector2(-121, 59)
+scale = Vector2(1.25, 1.34375)
+texture = ExtResource("3_4gt05")
+
+[node name="ConveyorBelt2" type="Sprite2D" parent="ConveyorBelt"]
+position = Vector2(48, 0)
+scale = Vector2(0.966667, 0.976744)
+texture = ExtResource("3_4gt05")
+
+[node name="ConveyorBelt2" type="Sprite2D" parent="ConveyorBelt/ConveyorBelt2"]
+position = Vector2(49.5, -0.255955)
+scale = Vector2(1.00647, 0.984375)
+texture = ExtResource("3_4gt05")
+
+[node name="ConveyorBelt" type="Sprite2D" parent="ConveyorBelt"]
+position = Vector2(26.4, -135.442)
+scale = Vector2(1.25, 1.34375)
+texture = ExtResource("3_4gt05")
+
+[node name="ConveyorBelt2" type="Sprite2D" parent="ConveyorBelt/ConveyorBelt"]
+position = Vector2(48, 0)
+scale = Vector2(0.966667, 0.976744)
+texture = ExtResource("3_4gt05")
+
+[node name="ConveyorBelt2" type="Sprite2D" parent="ConveyorBelt/ConveyorBelt/ConveyorBelt2"]
+position = Vector2(49.5, -0.255955)
+scale = Vector2(1.00647, 0.984375)
+texture = ExtResource("3_4gt05")
+
+[node name="Door2" type="Sprite2D" parent="."]
+position = Vector2(268, 56)
+texture = ExtResource("2_5tuxi")
+
+[node name="ElevatorPlatform" type="Sprite2D" parent="."]
+position = Vector2(-164, -112)
+texture = ExtResource("4_gjj0y")
+
+[node name="Door3" type="Sprite2D" parent="."]
+position = Vector2(-261, -152)
+texture = ExtResource("2_5tuxi")
+
+[node name="ElevatorPlatform2" type="Sprite2D" parent="."]
+position = Vector2(-162, 17)
+texture = ExtResource("4_gjj0y")
+
+[node name="ConveyorBelt3" type="Sprite2D" parent="."]
+position = Vector2(137, -124)
+scale = Vector2(1.5625, 1.80566)
+texture = ExtResource("3_4gt05")
+
+[node name="ConveyorBelt2" type="Sprite2D" parent="ConveyorBelt3"]
+position = Vector2(48, 0)
+scale = Vector2(0.966667, 0.976744)
+texture = ExtResource("3_4gt05")
+
+[node name="ConveyorBelt2" type="Sprite2D" parent="ConveyorBelt3/ConveyorBelt2"]
+position = Vector2(49.5, -0.255955)
+scale = Vector2(1.00647, 0.984375)
+texture = ExtResource("3_4gt05")

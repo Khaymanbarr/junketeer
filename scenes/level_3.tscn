@@ -899,6 +899,16 @@ sources/0 = SubResource("TileSetAtlasSource_m5ecj")
 
 [node name="level 3" type="Node2D"]
 
+[node name="Sprite2D" type="Sprite2D" parent="."]
+
+[node name="CharacterBody2D" parent="." instance=ExtResource("2_qbiti")]
+position = Vector2(-127, 25)
+script = ExtResource("3_v84fr")
+
+[node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
+position = Vector2(34, -40)
+zoom = Vector2(2, 2)
+
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = SubResource("TileSet_4jrul")
 format = 2
@@ -908,11 +918,3 @@ layer_0/tile_data = PackedInt32Array(-393227, 327680, 13, -327691, 327680, 13, -
 tile_set = SubResource("TileSet_ruxwf")
 format = 2
 layer_0/tile_data = PackedInt32Array(-458761, 65536, 3, -458760, 196608, 3, -458759, 327680, 3, -458762, 851968, 7, -1441778, 917504, 16, -1376242, 917504, 17, -1310706, 917504, 18, -1441777, 983040, 16, -1376241, 983040, 17, -1310705, 983040, 18)
-
-[node name="CharacterBody2D" parent="." instance=ExtResource("2_qbiti")]
-position = Vector2(-127, 25)
-script = ExtResource("3_v84fr")
-
-[node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
-position = Vector2(34, -40)
-zoom = Vector2(2, 2)
