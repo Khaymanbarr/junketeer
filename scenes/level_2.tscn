@@ -1,9 +1,10 @@
-[gd_scene load_steps=7 format=3 uid="uid://cnrltka0y6ba1"]
+[gd_scene load_steps=8 format=3 uid="uid://cnrltka0y6ba1"]
 
 [ext_resource type="Texture2D" uid="uid://b150vi3y6sccp" path="res://Tilemap/tileset.png" id="1_o3cmo"]
 [ext_resource type="Texture2D" uid="uid://bqb6ebb2i5lka" path="res://pngTiles/door.png" id="2_5tuxi"]
 [ext_resource type="Texture2D" uid="uid://blh10xcvn8ct4" path="res://pngTiles/conveyor_belt.png" id="3_4gt05"]
 [ext_resource type="Texture2D" uid="uid://cqonl20drgbla" path="res://pngTiles/elevator_platform.png" id="4_gjj0y"]
+[ext_resource type="Texture2D" uid="uid://s34uh0wmabpx" path="res://pngTiles/machine.png" id="5_knl78"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_ld7jv"]
 texture = ExtResource("1_o3cmo")
@@ -504,7 +505,7 @@ scale = Vector2(1.00647, 0.984375)
 texture = ExtResource("3_4gt05")
 
 [node name="ConveyorBelt" type="Sprite2D" parent="ConveyorBelt"]
-position = Vector2(26.4, -135.442)
+position = Vector2(28.8, -157.767)
 scale = Vector2(1.25, 1.34375)
 texture = ExtResource("3_4gt05")
 
@@ -548,3 +549,7 @@ texture = ExtResource("3_4gt05")
 position = Vector2(49.5, -0.255955)
 scale = Vector2(1.00647, 0.984375)
 texture = ExtResource("3_4gt05")
+
+[node name="Machine" type="Sprite2D" parent="."]
+position = Vector2(108, 17)
+texture = ExtResource("5_knl78")
